@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 stages {
 
     stage('Deploy to S3') {
@@ -21,6 +20,5 @@ stages {
         }
     }
 }
-```
 
 }
